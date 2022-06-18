@@ -1,0 +1,20 @@
+.task-list {
+    min-width: 400px;
+    max-width: 600px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 20px;
+    padding: 16px 32px;
+}
+
+.task-list ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: row;
+}
